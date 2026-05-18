@@ -13,7 +13,7 @@ namespace BackendAPI.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Producto>().ToTable("PRODUCTOS");
+            modelBuilder.Entity<Producto>().ToTable("PRODUCTOS_D");
 
             modelBuilder.Entity<Producto>(entity =>
             {

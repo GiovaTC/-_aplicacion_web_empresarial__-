@@ -1,11 +1,18 @@
-﻿<!DOCTYPE html>
+﻿body {
+    font-family: Arial;
+    margin: 40px;
+}
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
-</body>
-</html>
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}   
