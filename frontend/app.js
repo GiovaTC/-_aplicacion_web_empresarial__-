@@ -1,51 +1,39 @@
-﻿const API = "https://localhost:5001/api/productos";
+﻿const API = "https://localhost:7136/api/productos";
 
 async function cargarProductos() {
 
-    const response = await fetch(API);
+    try {
 
-    const productos = await response.json();
+        const response = await fetch(API);
 
-    let html = "";
+        if (!response.ok) {
+            throw new Error("Error al consultar API");
+        }
 
-    productos.forEach(p => {
+        const productos = await response.json();
 
-        html += `
-            <tr>
-                <td>${p.id}</td>
-                <td>${p.nombre}</td>
-                <td>${p.precio}</td>
-                <td>${p.stock}</td>
-            </tr>
-        `;
-    });
+        let html = "";
 
-    document.getElementById("tablaProductos").innerHTML = html;
+        productos.forEach(p => {
+
+            html += `
+                <tr>
+                    <td>${p.id}</td>
+                    <td>${p.nombre}</td>
+                    <td>${p.precio}</td>
+                    <td>${p.stock}</td>
+                </tr>
+            `;
+        });
+
+        document.getElementById("tablaProductos").innerHTML = html;
+    }
+    catch (error) {
+
+        console.error("ERROR:", error);
+
+        alert("No se pudo conectar con la API");
+    }
 }
 
-async function guardar() {
-
-    const producto = {
-
-        nombre: document.getElementById("nombre").value,
-
-        precio: parseFloat(document.getElementById("precio").value),
-
-        stock: parseInt(document.getElementById("stock").value)
-    };
-
-    await fetch(API, {
-
-        method: "POST",
-
-        headers: {
-            "Content-Type": "application/json"
-        },
-
-        body: JSON.stringify(producto)
-    });
-
-    cargarProductos();
-}
-
-cargarProductos();
+cargarProductos();  
