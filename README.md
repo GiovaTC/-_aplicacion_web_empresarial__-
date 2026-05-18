@@ -1,7 +1,9 @@
 # -_aplicacion_web_empresarial__- :.
 Aplicación Web Empresarial:
 
-<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/1ecec3fe-0afb-41e6-80c2-fc8ab473d604" />  
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/1ecec3fe-0afb-41e6-80c2-fc8ab473d604" />    
+
+<img width="2552" height="1079" alt="image" src="https://github.com/user-attachments/assets/3c0e1949-55e1-49b0-85d1-32764017df48" />    
 
 ```
 Visual Studio 2022 + JavaScript + ASP.NET Core + Oracle 19c
