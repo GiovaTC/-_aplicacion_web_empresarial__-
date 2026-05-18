@@ -3,7 +3,9 @@ Aplicación Web Empresarial:
 
 <img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/1ecec3fe-0afb-41e6-80c2-fc8ab473d604" />    
 
-<img width="1363" height="717" alt="image" src="https://github.com/user-attachments/assets/7eeb61a5-8636-4a01-9c4c-6fc4ad8febab" />    
+<img width="1363" height="717" alt="image" src="https://github.com/user-attachments/assets/7eeb61a5-8636-4a01-9c4c-6fc4ad8febab" />
+
+<img width="1363" height="767" alt="image" src="https://github.com/user-attachments/assets/dfd431e7-41d8-476f-86e2-0cda0b8c87f3" />        
 
 <img width="1365" height="728" alt="image" src="https://github.com/user-attachments/assets/434cb307-bb3d-48ff-8401-2aab90b0481d" />    
 
