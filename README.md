@@ -9,8 +9,8 @@ Aplicación Web Empresarial:
     
 <img width="2552" height="1079" alt="image" src="https://github.com/user-attachments/assets/3c0e1949-55e1-49b0-85d1-32764017df48" />    
 
-<img width="2545" height="1079" alt="image" src="https://github.com/user-attachments/assets/d4161ebe-8426-47f5-82e5-190989734e2c" />    
-
+<img width="2551" height="1077" alt="image" src="https://github.com/user-attachments/assets/5a00dc3f-89ee-45d2-bda9-a6ae7bed1fe8" />        
+    
 ```
 Visual Studio 2022 + JavaScript + ASP.NET Core + Oracle 19c
 Desarrollaremos una aplicación web empresarial completa utilizando:
